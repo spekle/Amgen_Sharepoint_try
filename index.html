@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amgen Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #f7f9fc, #ffffff);
+      margin: 0;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .header img {
+      height: 50px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+      background: #005eb8;
+      color: white;
+      padding: 10px;
+      border-radius: 5px 5px 0 0;
+    }
+    .links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #005eb8;
+      text-decoration: none;
+    }
+    .about img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .feedback-form input, .feedback-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .pdf-icon {
+      display: inline-block;
+      text-align: center;
+      margin: 5px;
+    }
+    .pdf-icon img {
+      width: 40px;
+    }
+    .pdf-icon div {
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://1000logos.net/wp-content/uploads/2021/10/Amgen-logo.png" alt="Amgen logo">
+    <h2>Welcome, Andre</h2>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Media Dashboard</h3>
+      <div class="links">
+        <strong>Execution</strong><br>
+        <a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><br>
+        <strong>Operations</strong><br>
+        <a href="#">Link</a><a href="#">Link</a><br>
+        <strong>Others</strong><br>
+        <a href="#">Link</a><br>
+        <strong>Google</strong><br>
+        <a href="https://www.google.com" target="_blank">Go to Google</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Media Performance</h3>
+      <p><strong>By brand</strong></p>
+      <img src="https://i.imgur.com/SCg0hAX.png" alt="Brand Logos" style="width: 100%;">
+    </div>
+
+    <div class="card">
+      <h3>Experimentation</h3>
+      <div class="pdf-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF"><div>Name</div>
+      </div>
+      <div class="pdf-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF"><div>Name</div>
+      </div>
+      <div class="pdf-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF"><div>Name</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Marketing Mix</h3>
+      <div class="pdf-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF"><div>Name</div>
+      </div>
+      <div class="pdf-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF"><div>Name</div>
+      </div>
+      <div class="pdf-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF"><div>Name</div>
+      </div>
+    </div>
+
+    <div class="card about">
+      <h3>About Us</h3>
+      <img src="https://i.imgur.com/7XqwmrM.jpg" alt="Team">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div>
+
+    <div class="card">
+      <h3>Org Chart</h3>
+      <img src="https://i.imgur.com/Yc9eXNz.png" alt="Org Chart" style="width: 100%;">
+    </div>
+
+    <div class="card feedback-form">
+      <h3>Feedback Form</h3>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Project Request">
+      <textarea rows="3" placeholder="Question"></textarea>
+    </div>
+
+    <div class="card">
+      <h3>Upcoming Deliverables</h3>
+      <img src="https://i.imgur.com/pDHKH5G.png" alt="Timeline" style="width: 100%;">
+    </div>
+  </div>
+</body>
+</html>
